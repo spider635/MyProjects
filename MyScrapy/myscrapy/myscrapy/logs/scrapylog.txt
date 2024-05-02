@@ -1,0 +1,226 @@
+2024-05-02 11:59:38,478 [INFO] [log.py,169] [MainThread,6296] - Scrapy 2.11.1 started (bot: myscrapy)
+2024-05-02 11:59:38,508 [INFO] [log.py,178] [MainThread,6296] - Versions: lxml 5.2.1.0, libxml2 2.11.7, cssselect 1.2.0, parsel 1.9.1, w3lib 2.1.2, Twisted 24.3.0, Python 3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)], pyOpenSSL 24.1.0 (OpenSSL 3.2.1 30 Jan 2024), cryptography 42.0.5, Platform Windows-10-10.0.19045-SP0
+2024-05-02 11:59:38,508 [INFO] [addons.py,47] [MainThread,6296] - Enabled addons:
+[]
+2024-05-02 11:59:38,528 [INFO] [telnet.py,58] [MainThread,6296] - Telnet Password: f952a0bcab3d406c
+2024-05-02 11:59:39,018 [INFO] [middleware.py,78] [MainThread,6296] - Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2024-05-02 11:59:39,027 [INFO] [crawler.py,138] [MainThread,6296] - Overridden settings:
+{'BOT_NAME': 'myscrapy',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_ENABLED': False,
+ 'NEWSPIDER_MODULE': 'myscrapy.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['myscrapy.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
+2024-05-02 11:59:39,138 [INFO] [middleware.py,78] [MainThread,6296] - Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-05-02 11:59:39,148 [INFO] [middleware.py,78] [MainThread,6296] - Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-05-02 11:59:39,148 [INFO] [middleware.py,78] [MainThread,6296] - Enabled item pipelines:
+[]
+2024-05-02 11:59:39,148 [INFO] [engine.py,359] [MainThread,6296] - Spider opened
+2024-05-02 11:59:39,158 [INFO] [logstats.py,54] [MainThread,6296] - Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-05-02 11:59:39,158 [INFO] [telnet.py,70] [MainThread,6296] - Telnet console listening on 127.0.0.1:6023
+2024-05-02 11:59:46,188 [INFO] [equipmentradar.py,108] [MainThread,6296] - Airport Equipment Rentals - Fairbanks
+2024-05-02 11:59:46,196 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://airportequipmentrentals.com/?utm_source=EquipmentRadar.com
+2024-05-02 11:59:46,197 [INFO] [equipmentradar.py,110] [MainThread,6296] - airportequipmentrentals.com
+2024-05-02 11:59:47,289 [INFO] [equipmentradar.py,108] [MainThread,6296] - Northwest Handling Systems - Anchorage
+2024-05-02 11:59:47,289 [INFO] [equipmentradar.py,109] [MainThread,6296] - http://www.nwhs.com/?utm_source=EquipmentRadar.com
+2024-05-02 11:59:47,289 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.nwhs.com
+2024-05-02 11:59:47,636 [INFO] [equipmentradar.py,108] [MainThread,6296] - Construction Machinery Industrial - Anchorage
+2024-05-02 11:59:47,638 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://www.cmiak.com/?utm_source=EquipmentRadar.com
+2024-05-02 11:59:47,638 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.cmiak.com
+2024-05-02 11:59:47,877 [INFO] [equipmentradar.py,108] [MainThread,6296] - Construction Machinery Industrial - Fairbanks
+2024-05-02 11:59:47,877 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://www.cmiak.com/?utm_source=EquipmentRadar.com
+2024-05-02 11:59:47,877 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.cmiak.com
+2024-05-02 11:59:47,949 [INFO] [equipmentradar.py,108] [MainThread,6296] - Craig Taylor Equipment - Soldotna
+2024-05-02 11:59:47,949 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://www.craigtaylorequipment.com/?utm_source=EquipmentRadar.com
+2024-05-02 11:59:47,956 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.craigtaylorequipment.com
+2024-05-02 11:59:48,170 [INFO] [equipmentradar.py,108] [MainThread,6296] - Bacon Universal Equipment - Lihue
+2024-05-02 11:59:48,170 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://baconuniversal.com/?utm_source=EquipmentRadar.com
+2024-05-02 11:59:48,170 [INFO] [equipmentradar.py,110] [MainThread,6296] - baconuniversal.com
+2024-05-02 11:59:49,049 [INFO] [equipmentradar.py,108] [MainThread,6296] - N C Machinery CAT - Wasilla
+2024-05-02 11:59:49,049 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://www.ncmachinery.com/?utm_source=EquipmentRadar.com
+2024-05-02 11:59:49,049 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.ncmachinery.com
+2024-05-02 11:59:49,107 [INFO] [equipmentradar.py,108] [MainThread,6296] - N C Machinery CAT - Prudhoe Bay
+2024-05-02 11:59:49,108 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://www.ncmachinery.com/?utm_source=EquipmentRadar.com
+2024-05-02 11:59:49,108 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.ncmachinery.com
+2024-05-02 11:59:49,479 [INFO] [equipmentradar.py,108] [MainThread,6296] - N C Machinery CAT - Anchorage
+2024-05-02 11:59:49,479 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://www.ncmachinery.com/?utm_source=EquipmentRadar.com
+2024-05-02 11:59:49,479 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.ncmachinery.com
+2024-05-02 11:59:49,797 [INFO] [equipmentradar.py,108] [MainThread,6296] - N C Machinery CAT - Fairbanks
+2024-05-02 11:59:49,799 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://www.ncmachinery.com/?utm_source=EquipmentRadar.com
+2024-05-02 11:59:49,799 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.ncmachinery.com
+2024-05-02 11:59:50,019 [INFO] [equipmentradar.py,108] [MainThread,6296] - N C Machinery CAT - Dutch Harbor
+2024-05-02 11:59:50,019 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://www.ncmachinery.com/?utm_source=EquipmentRadar.com
+2024-05-02 11:59:50,019 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.ncmachinery.com
+2024-05-02 11:59:50,837 [INFO] [equipmentradar.py,108] [MainThread,6296] - Hawthorne CAT - Lihue
+2024-05-02 11:59:50,837 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://www.hawthornecat.com/?utm_source=EquipmentRadar.com
+2024-05-02 11:59:50,837 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.hawthornecat.com
+2024-05-02 11:59:51,097 [INFO] [equipmentradar.py,108] [MainThread,6296] - Allied Machinery - Lihue
+2024-05-02 11:59:51,097 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://alliedmachinerycorp.com/?utm_source=EquipmentRadar.com
+2024-05-02 11:59:51,097 [INFO] [equipmentradar.py,110] [MainThread,6296] - alliedmachinerycorp.com
+2024-05-02 11:59:51,417 [INFO] [equipmentradar.py,108] [MainThread,6296] - Hawaii Truck Parts Sales & Service
+2024-05-02 11:59:51,417 [INFO] [equipmentradar.py,109] [MainThread,6296] - http://www.hawaiitruckpartssalesandservices.com/?utm_source=EquipmentRadar.com
+2024-05-02 11:59:51,417 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.hawaiitruckpartssalesandservices.com
+2024-05-02 11:59:51,477 [INFO] [equipmentradar.py,108] [MainThread,6296] - Home Depot Rental - Kapolei - HD1706
+2024-05-02 11:59:51,477 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://www.compactpowerrents.com/?utm_source=EquipmentRadar.com
+2024-05-02 11:59:51,477 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.compactpowerrents.com
+2024-05-02 11:59:52,191 [INFO] [equipmentradar.py,108] [MainThread,6296] - Equipment Source Inc - Anchorage
+2024-05-02 11:59:52,191 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://www.esialaska.com/?utm_source=EquipmentRadar.com
+2024-05-02 11:59:52,191 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.esialaska.com
+2024-05-02 11:59:52,781 [INFO] [equipmentradar.py,108] [MainThread,6296] - Finning Canada - Whitehorse
+2024-05-02 11:59:52,781 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://www.finning.com/en_CA.html?utm_source=EquipmentRadar.com
+2024-05-02 11:59:52,781 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.finning.com
+2024-05-02 11:59:52,938 [INFO] [equipmentradar.py,108] [MainThread,6296] - Equipment Source Inc - Fairbanks
+2024-05-02 11:59:52,938 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://www.esialaska.com/?utm_source=EquipmentRadar.com
+2024-05-02 11:59:52,938 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.esialaska.com
+2024-05-02 11:59:53,238 [INFO] [equipmentradar.py,108] [MainThread,6296] - Yukon Rentals
+2024-05-02 11:59:53,238 [INFO] [equipmentradar.py,109] [MainThread,6296] - http://www.yukonrentals.ca/?utm_source=EquipmentRadar.com
+2024-05-02 11:59:53,238 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.yukonrentals.ca
+2024-05-02 11:59:53,946 [INFO] [equipmentradar.py,108] [MainThread,6296] - Macpherson Rentals
+2024-05-02 11:59:53,946 [INFO] [equipmentradar.py,109] [MainThread,6296] - http://macphersonrentals.com/?utm_source=EquipmentRadar.com
+2024-05-02 11:59:53,947 [INFO] [equipmentradar.py,110] [MainThread,6296] - macphersonrentals.com
+2024-05-02 11:59:54,168 [INFO] [equipmentradar.py,108] [MainThread,6296] - Great West Equipment - Whitehorse
+2024-05-02 11:59:54,168 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://www.gwequipment.com/?utm_source=EquipmentRadar.com
+2024-05-02 11:59:54,168 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.gwequipment.com
+2024-05-02 11:59:55,121 [INFO] [equipmentradar.py,108] [MainThread,6296] - SMS Equipment - Anchorage
+2024-05-02 11:59:55,121 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://www.smsequipment.com/?utm_source=EquipmentRadar.com
+2024-05-02 11:59:55,121 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.smsequipment.com
+2024-05-02 11:59:55,368 [INFO] [equipmentradar.py,108] [MainThread,6296] - RWC Group - Fairbanks
+2024-05-02 11:59:55,368 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://www.rwcgroup.com/?utm_source=EquipmentRadar.com
+2024-05-02 11:59:55,368 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.rwcgroup.com
+2024-05-02 11:59:55,748 [INFO] [equipmentradar.py,108] [MainThread,6296] - Raymond Handling Concepts - Anchorage
+2024-05-02 11:59:55,748 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://raymondhandling.com/?utm_source=EquipmentRadar.com
+2024-05-02 11:59:55,748 [INFO] [equipmentradar.py,110] [MainThread,6296] - raymondhandling.com
+2024-05-02 11:59:56,724 [INFO] [equipmentradar.py,108] [MainThread,6296] - Vermeer Northwest - Anchorage
+2024-05-02 11:59:56,724 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://www.vermeernw.com/?utm_source=EquipmentRadar.com
+2024-05-02 11:59:56,724 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.vermeernw.com
+2024-05-02 11:59:56,899 [INFO] [equipmentradar.py,108] [MainThread,6296] - Dobbs Peterbilt - Anchorage
+2024-05-02 11:59:56,899 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://www.peterbilttruckcenters.com/?utm_source=EquipmentRadar.com
+2024-05-02 11:59:56,906 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.peterbilttruckcenters.com
+2024-05-02 11:59:57,552 [INFO] [equipmentradar.py,108] [MainThread,6296] - Papé Kenworth - Fairbanks
+2024-05-02 11:59:57,552 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://www.papekenworth.com/?utm_source=EquipmentRadar.com
+2024-05-02 11:59:57,552 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.papekenworth.com
+2024-05-02 11:59:57,917 [INFO] [equipmentradar.py,108] [MainThread,6296] - Papé Kenworth - Anchorage
+2024-05-02 11:59:57,917 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://www.papekenworth.com/?utm_source=EquipmentRadar.com
+2024-05-02 11:59:57,917 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.papekenworth.com
+2024-05-02 11:59:58,919 [INFO] [equipmentradar.py,108] [MainThread,6296] - Dobbs Peterbilt - Fairbanks
+2024-05-02 11:59:58,919 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://www.peterbilttruckcenters.com/?utm_source=EquipmentRadar.com
+2024-05-02 11:59:58,919 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.peterbilttruckcenters.com
+2024-05-02 11:59:59,418 [INFO] [equipmentradar.py,108] [MainThread,6296] - United Rentals - Soldotna
+2024-05-02 11:59:59,418 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://www.unitedrentals.com/?utm_source=EquipmentRadar.com
+2024-05-02 11:59:59,418 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.unitedrentals.com
+2024-05-02 11:59:59,427 [INFO] [equipmentradar.py,108] [MainThread,6296] - RWC Group - Anchorage
+2024-05-02 11:59:59,427 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://www.rwcgroup.com/?utm_source=EquipmentRadar.com
+2024-05-02 11:59:59,427 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.rwcgroup.com
+2024-05-02 12:00:00,666 [INFO] [equipmentradar.py,108] [MainThread,6296] - Sunbelt Rentals - Lihue
+2024-05-02 12:00:00,667 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://www.sunbeltrentals.com/?utm_source=EquipmentRadar.com
+2024-05-02 12:00:00,667 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.sunbeltrentals.com
+2024-05-02 12:00:00,868 [INFO] [equipmentradar.py,108] [MainThread,6296] - United Rentals - Anchorage
+2024-05-02 12:00:00,868 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://www.unitedrentals.com/?utm_source=EquipmentRadar.com
+2024-05-02 12:00:00,868 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.unitedrentals.com
+2024-05-02 12:00:02,299 [INFO] [equipmentradar.py,108] [MainThread,6296] - Western Pacific Crane & Equipment - Anchorage
+2024-05-02 12:00:02,299 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://wpcrane.com/?utm_source=EquipmentRadar.com
+2024-05-02 12:00:02,299 [INFO] [equipmentradar.py,110] [MainThread,6296] - wpcrane.com
+2024-05-02 12:00:02,582 [INFO] [equipmentradar.py,108] [MainThread,6296] - Herc Rentals - Kapolei
+2024-05-02 12:00:02,582 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://www.hercrentals.com/?utm_source=EquipmentRadar.com
+2024-05-02 12:00:02,582 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.hercrentals.com
+2024-05-02 12:00:03,818 [INFO] [equipmentradar.py,108] [MainThread,6296] - Western Pacific Crane & Equipment - Kapolei
+2024-05-02 12:00:03,818 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://wpcrane.com/?utm_source=EquipmentRadar.com
+2024-05-02 12:00:03,818 [INFO] [equipmentradar.py,110] [MainThread,6296] - wpcrane.com
+2024-05-02 12:00:04,389 [INFO] [equipmentradar.py,108] [MainThread,6296] - Service Rentals - Kauai
+2024-05-02 12:00:04,389 [INFO] [equipmentradar.py,109] [MainThread,6296] - http://service-rentals.com/?utm_source=EquipmentRadar.com
+2024-05-02 12:00:04,389 [INFO] [equipmentradar.py,110] [MainThread,6296] - service-rentals.com
+2024-05-02 12:00:05,641 [INFO] [equipmentradar.py,108] [MainThread,6296] - American Machinery - Lihue
+2024-05-02 12:00:05,641 [INFO] [equipmentradar.py,109] [MainThread,6296] - http://www.americanmachineryhawaii.com/?utm_source=EquipmentRadar.com
+2024-05-02 12:00:05,641 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.americanmachineryhawaii.com
+2024-05-02 12:00:06,228 [INFO] [equipmentradar.py,108] [MainThread,6296] - American Machinery - Kapolei
+2024-05-02 12:00:06,228 [INFO] [equipmentradar.py,109] [MainThread,6296] - http://www.americanmachineryhawaii.com/?utm_source=EquipmentRadar.com
+2024-05-02 12:00:06,228 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.americanmachineryhawaii.com
+2024-05-02 12:00:07,021 [INFO] [equipmentradar.py,108] [MainThread,6296] - Airport Equipment Rentals - Delta
+2024-05-02 12:00:07,026 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://airportequipmentrentals.com/?utm_source=EquipmentRadar.com
+2024-05-02 12:00:07,027 [INFO] [equipmentradar.py,110] [MainThread,6296] - airportequipmentrentals.com
+2024-05-02 12:00:07,727 [INFO] [equipmentradar.py,108] [MainThread,6296] - Airport Equipment Rentals - Prudhoe Bay
+2024-05-02 12:00:07,727 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://airportequipmentrentals.com/?utm_source=EquipmentRadar.com
+2024-05-02 12:00:07,727 [INFO] [equipmentradar.py,110] [MainThread,6296] - airportequipmentrentals.com
+2024-05-02 12:00:09,024 [INFO] [equipmentradar.py,108] [MainThread,6296] - Airport Equipment Rentals - Kenai
+2024-05-02 12:00:09,024 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://airportequipmentrentals.com/?utm_source=EquipmentRadar.com
+2024-05-02 12:00:09,026 [INFO] [equipmentradar.py,110] [MainThread,6296] - airportequipmentrentals.com
+2024-05-02 12:00:09,728 [INFO] [equipmentradar.py,108] [MainThread,6296] - Airport Equipment Rentals - Anchorage
+2024-05-02 12:00:09,728 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://airportequipmentrentals.com/?utm_source=EquipmentRadar.com
+2024-05-02 12:00:09,728 [INFO] [equipmentradar.py,110] [MainThread,6296] - airportequipmentrentals.com
+2024-05-02 12:00:17,518 [INFO] [equipmentradar.py,108] [MainThread,6296] - Craig Taylor Equipment - Fairbanks
+2024-05-02 12:00:17,518 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://www.craigtaylorequipment.com/?utm_source=EquipmentRadar.com
+2024-05-02 12:00:17,518 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.craigtaylorequipment.com
+2024-05-02 12:00:17,991 [INFO] [equipmentradar.py,108] [MainThread,6296] - Craig Taylor Equipment - Wasilla
+2024-05-02 12:00:17,991 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://www.craigtaylorequipment.com/?utm_source=EquipmentRadar.com
+2024-05-02 12:00:17,991 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.craigtaylorequipment.com
+2024-05-02 12:00:18,249 [INFO] [equipmentradar.py,108] [MainThread,6296] - Craig Taylor Equipment - Anchorage
+2024-05-02 12:00:18,249 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://www.craigtaylorequipment.com/?utm_source=EquipmentRadar.com
+2024-05-02 12:00:18,249 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.craigtaylorequipment.com
+2024-05-02 12:00:20,839 [INFO] [equipmentradar.py,108] [MainThread,6296] - Home Depot Rental - Lihue-kauai - HD1705
+2024-05-02 12:00:20,839 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://www.compactpowerrents.com/?utm_source=EquipmentRadar.com
+2024-05-02 12:00:20,839 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.compactpowerrents.com
+2024-05-02 12:00:23,997 [INFO] [equipmentradar.py,108] [MainThread,6296] - SMS Equipment - Whitehorse
+2024-05-02 12:00:23,997 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://www.smsequipment.com/?utm_source=EquipmentRadar.com
+2024-05-02 12:00:23,997 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.smsequipment.com
+2024-05-02 12:00:30,759 [INFO] [equipmentradar.py,108] [MainThread,6296] - Sunbelt Rentals - Kapolei
+2024-05-02 12:00:30,759 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://www.sunbeltrentals.com/?utm_source=EquipmentRadar.com
+2024-05-02 12:00:30,759 [INFO] [equipmentradar.py,110] [MainThread,6296] - www.sunbeltrentals.com
+2024-05-02 12:00:39,167 [INFO] [logstats.py,54] [MainThread,6296] - Crawled 51 pages (at 51 pages/min), scraped 49 items (at 49 items/min)
+2024-05-02 12:00:40,756 [INFO] [equipmentradar.py,108] [MainThread,6296] - Airport Equipment Rentals - The Rental Zone
+2024-05-02 12:00:40,757 [INFO] [equipmentradar.py,109] [MainThread,6296] - https://airportequipmentrentals.com/?utm_source=EquipmentRadar.com
+2024-05-02 12:00:40,758 [INFO] [equipmentradar.py,110] [MainThread,6296] - airportequipmentrentals.com
+2024-05-02 12:00:40,758 [INFO] [engine.py,411] [MainThread,6296] - Closing spider (finished)
+2024-05-02 12:00:40,758 [INFO] [feedexport.py,532] [MainThread,6296] - Stored csv feed (50 items) in: test.csv
+2024-05-02 12:00:40,767 [INFO] [statscollectors.py,58] [MainThread,6296] - Dumping Scrapy stats:
+{'downloader/request_bytes': 30151,
+ 'downloader/request_count': 59,
+ 'downloader/request_method_count/GET': 59,
+ 'downloader/response_bytes': 1428247,
+ 'downloader/response_count': 59,
+ 'downloader/response_status_count/200': 52,
+ 'downloader/response_status_count/504': 7,
+ 'elapsed_time_seconds': 61.600602,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 5, 2, 4, 0, 40, 758731, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 6701508,
+ 'httpcompression/response_count': 52,
+ 'item_scraped_count': 50,
+ 'log_count/DEBUG': 112,
+ 'log_count/INFO': 162,
+ 'request_depth_max': 1,
+ 'response_received_count': 52,
+ 'retry/count': 7,
+ 'retry/reason_count/504 Gateway Time-out': 7,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 58,
+ 'scheduler/dequeued/memory': 58,
+ 'scheduler/enqueued': 58,
+ 'scheduler/enqueued/memory': 58,
+ 'start_time': datetime.datetime(2024, 5, 2, 3, 59, 39, 158129, tzinfo=datetime.timezone.utc)}
+2024-05-02 12:00:40,768 [INFO] [engine.py,452] [MainThread,6296] - Spider closed (finished)

@@ -6,6 +6,9 @@
 #     https://docs.scrapy.org/en/latest/topics/settings.html
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
+import logging
+from scrapy.utils.log import configure_logging
+from myscrapy.common.utils_handler import utils_init_log
 
 BOT_NAME = "myscrapy"
 
@@ -91,3 +94,27 @@ ROBOTSTXT_OBEY = True
 REQUEST_FINGERPRINTER_IMPLEMENTATION = "2.7"
 TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
+
+
+
+
+######################################  Log Setup  #########################################
+# Disable default Scrapy log settings.
+LOG_ENABLED = False
+configure_logging(install_root_handler=False)
+
+# Define your logging settings.
+log_file = 'myscrapy/logs/scrapylog.txt'
+log_level = logging.INFO
+utils_init_log(log_file, log_level)
+######################################  Log Setup  #########################################
+
+
+######################################  DB Setup  #########################################
+DB_HOST = 'localhost'
+DB_PORT = 3306
+DB_NAME = 'myscrapy'
+DB_USER = 'root'
+DB_PASS = '123456'
+######################################  DB Setup  #########################################
+
