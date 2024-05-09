@@ -1,0 +1,4 @@
+python domain.py sale data-sale.csv
+python domain.py rent data-rent.csv
+python domain.py sale data-sale.csv --states QLD
+python domain.py rent data-rent.csv --states QLD
